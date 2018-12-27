@@ -1,7 +1,7 @@
 .footer {
   font-size: 0.833rem;
-  color: $color-text-thin;
-  background: $color-bland;
+  color: $color-text;
+  background: $color-sub;
   overflow: hidden;
 
   &-wrap {
@@ -44,7 +44,7 @@
 
   &-info {
     padding: 20px;
-    border-top: 1px solid $color-border-deep;
+    border-top: 1px solid $color-border;
     text-align: center;
     font-size: 0.833rem;
   }
