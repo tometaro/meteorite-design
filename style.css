@@ -159,7 +159,7 @@ a {
     padding: 60px 0;
     overflow: auto; }
   .section-wrapper {
-    max-width: 1160px;
+    max-width: 1040px;
     margin: 0 auto;
     padding: 100px 0 0 0;
     overflow: hidden; }
@@ -378,20 +378,16 @@ a {
 .articleList {
   display: flex;
   flex-wrap: wrap;
-  font-size: 0;
-  text-align: center;
-  letter-spacing: normal;
-  margin: 0 -20px; }
-  .articleList li {
-    display: inline-table;
-    padding: 0 20px;
+  font-size: 0; }
+  .articleList-item {
     margin-bottom: 100px;
-    text-align: left;
-    width: 50%; }
+    display: inline-table;
+    width: 100%;
+    text-align: left; }
   .articleList-image, .articleList-noImage {
     padding-top: 58%;
     width: 100%;
-    border-radius: 4px; }
+    border-radius: 8px; }
   .articleList-image {
     position: absolute;
     overflow: hidden; }
@@ -408,7 +404,6 @@ a {
     background: rgba(255, 255, 255, 0.03);
     display: block; }
   .articleList a {
-    display: block;
     letter-spacing: 0.1rem; }
   .articleList-title {
     line-height: 2;
@@ -419,14 +414,12 @@ a {
     color: #666666;
     font-size: 0.833rem;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; }
+    .articleList-read span {
+      margin-right: 10px; }
 
-@media screen and (max-width: 1040px) {
-  .articleList {
-    display: block;
-    margin: 0; }
-    .articleList li {
-      width: 100%;
-      padding: 0; } }
+@media screen and (max-width: 320px) {
+  .articleList li {
+    margin: 25px 10px; } }
 
 .comments {
   background: #000;
