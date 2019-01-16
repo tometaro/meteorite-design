@@ -31,6 +31,7 @@ get_header();
 	<div class="section">
 		<div class="section-wrapper ">
 			<div class="section-content">
+			
 				<?php
 				while ( have_posts() ) : the_post();
 
@@ -42,6 +43,9 @@ get_header();
 			</div>
 		</div>
 	</div>
+
+
+
 
 <?php
 get_footer();

@@ -10,10 +10,12 @@
   }
 
   &-wrapper {
-      max-width: 1040px;
+      max-width: 1140px;
       margin: 0 auto;
       padding: 100px 0 0 0;
       overflow: hidden;;
+
+      display: flex;
 
       &-narrow {
         width: 770px;
@@ -21,8 +23,7 @@
   }
 
   &-content {
-    width: 770px;
-    float: left;
+    // width: 770px;
   }
 }
 
