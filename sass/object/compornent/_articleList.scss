@@ -1,4 +1,5 @@
 .articleList {
+<<<<<<< HEAD
   display: inline-table;
   font-size: 0;
   text-align: center;
@@ -9,18 +10,43 @@
     margin: 20px;
     width: 320px;
 
+=======
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0;
+  margin: 0 -20px;
+
+  &-item {
+    position: relative;
+    margin-bottom: 100px;
+    display: inline-table;
+    width: 50%;
+>>>>>>> e2d827983a959972c2fce7d10c7d0166a39f8abd
     text-align: left;
+    padding: 0 20px;
+  }
+
+  &-wrap {
+    display: block;
+    position: relative;
+    border: 1px solid $color-border;
+    border-radius: 4px;
+    overflow: hidden;
   }
 
   &-image,&-noImage {
+<<<<<<< HEAD
     height: 180px;
     width: 320px;
     border-radius: 8px;
+=======
+    padding-top : 58%;
+    width: 100%;
+>>>>>>> e2d827983a959972c2fce7d10c7d0166a39f8abd
   }
 
   &-image {
     position: absolute;
-    overflow: hidden;
   }
 
   img{
@@ -30,6 +56,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
   }
 
   &-noImage {
@@ -40,8 +68,12 @@
   }
 
   a {
+<<<<<<< HEAD
     display: inline-block;
+=======
+>>>>>>> e2d827983a959972c2fce7d10c7d0166a39f8abd
     letter-spacing: 0.1rem;
+    color: $color-text;
 
   }
 
@@ -50,22 +82,31 @@
     margin: 10px 0 5px 0;
     font-size: 1rem;
     font-weight: 600;
+    display: inline-block;
   }
 
   &-read {
     color : $color-text-thin;
-    font-size: 0.833rem;
+    font-size: $fontSize-S;
     font-family: $font-sub;
+    a {
+      color: $color-text-thin;
+    }
     span {
       margin-right: 10px;
     }
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1040px) {
   .articleList {
-    li {
-      margin: 25px 10px;
+    display: block;
+    margin: 0;
+
+    &-item {    
+      width: 100%;
+      padding: 0;
+
     }
   }
 }
