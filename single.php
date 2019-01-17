@@ -22,6 +22,7 @@ get_header();
 					<div class="keyVisual-titleBlock-left">
 						<h1 class="keyVisual-title"><?php the_title(); ?></h1>
 						<p class="keyVisual-read"><?php echo the_time('Y.m.d'); ?></p>
+						<p><?php echo get_post_meta($post->ID , 'リンク' ,true); ?></p>
 					</div>
 				</div>
 			</div>

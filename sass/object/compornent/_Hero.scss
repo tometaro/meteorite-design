@@ -4,6 +4,8 @@
   text-align: center;
   width: 100%;
   position: relative;
+  display: flex;
+  align-items: center;
 
 
   &-white {
@@ -32,6 +34,8 @@
 
   &-title {
     width: 100%;
+    font-size: $fontSize-XXL;
+    letter-spacing: 0.5rem;
     svg {
       width: 200px;
     }

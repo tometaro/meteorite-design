@@ -300,7 +300,9 @@ a {
   background: radial-gradient(#141414, #000);
   text-align: center;
   width: 100%;
-  position: relative; }
+  position: relative;
+  display: flex;
+  align-items: center; }
   .hero-white {
     padding-top: 60px;
     width: 100%;
@@ -310,7 +312,9 @@ a {
     transform: translateY(-50%) translateX(-50%);
     z-index: 99; }
   .hero-title {
-    width: 100%; }
+    width: 100%;
+    font-size: 2.074rem;
+    letter-spacing: 0.5rem; }
     .hero-title svg {
       width: 200px; }
   .hero-text {
@@ -696,7 +700,7 @@ button {
       display: none;
       width: 100%;
       height: 100%;
-      background: rgba(239, 239, 239, 0.9); }
+      background: rgba(51, 51, 51, 0.7); }
   .naviToggle span {
     background: #8992e7;
     display: block;
@@ -809,7 +813,7 @@ button {
   text-align: center;
   transform: translateX(-800px);
   height: 100%;
-  background: #fff; }
+  background: #000; }
   .spNavi ul {
     list-style: none;
     position: static;

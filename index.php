@@ -14,7 +14,9 @@
 
 get_header();
 ?>
-	<div class="hero"></div>
+	<div class="hero">
+		<h1 class="hero-title">Portfolio</h1>
+	</div>
 
 	<section class="section">
 		<div class="section-wrapper">
