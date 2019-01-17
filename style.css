@@ -134,6 +134,7 @@ a {
     align-items: center;
     padding: 0 20px; }
   .header-logo-type {
+    display: none;
     height: 20px;
     fill: #8992e7; }
     .header-logo-type svg {
@@ -159,11 +160,10 @@ a {
     padding: 60px 0;
     overflow: auto; }
   .section-wrapper {
-    max-width: 1140px;
+    max-width: 1160px;
     margin: 0 auto;
     padding: 100px 0 0 0;
-    overflow: hidden;
-    display: flex; }
+    overflow: hidden; }
     .section-wrapper-narrow {
       width: 770px; }
 
@@ -188,7 +188,7 @@ a {
   background: #000;
   overflow: hidden; }
   .footer-wrap {
-    width: 1040px;
+    width: 1160px;
     margin: 60px auto; }
   .footer-navi {
     display: flex; }
@@ -744,7 +744,7 @@ button {
   background: #000;
   position: relative; }
   .keyVisual-wrap {
-    width: 1040px;
+    width: 1160px;
     margin: 0 auto;
     height: 100%;
     position: relative;
