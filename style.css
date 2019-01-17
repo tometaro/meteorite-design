@@ -374,21 +374,6 @@ a {
   height: auto; }
 
 .articleList {
-<<<<<<< HEAD
-  display: inline-table;
-  font-size: 0;
-  text-align: center;
-  letter-spacing: normal; }
-  .articleList-item {
-    display: inline-table;
-    margin: 20px;
-    width: 320px;
-    text-align: left; }
-  .articleList-image, .articleList-noImage {
-    height: 180px;
-    width: 320px;
-    border-radius: 8px; }
-=======
   display: flex;
   flex-wrap: wrap;
   font-size: 0;
@@ -409,7 +394,6 @@ a {
   .articleList-image, .articleList-noImage {
     padding-top: 58%;
     width: 100%; }
->>>>>>> e2d827983a959972c2fce7d10c7d0166a39f8abd
   .articleList-image {
     position: absolute; }
   .articleList img {
@@ -424,16 +408,11 @@ a {
   .articleList-noImage {
     position: relative;
     z-index: 99999;
-    background: rgba(0, 0, 0, 0.03);
+    background: rgba(255, 255, 255, 0.03);
     display: block; }
   .articleList a {
-<<<<<<< HEAD
-    display: inline-block;
-    letter-spacing: 0.1rem; }
-=======
     letter-spacing: 0.1rem;
     color: #FFF; }
->>>>>>> e2d827983a959972c2fce7d10c7d0166a39f8abd
   .articleList-title {
     line-height: 2;
     margin: 10px 0 5px 0;

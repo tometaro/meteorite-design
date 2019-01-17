@@ -1,16 +1,4 @@
 .articleList {
-<<<<<<< HEAD
-  display: inline-table;
-  font-size: 0;
-  text-align: center;
-  letter-spacing: normal;//firefoxカラム落ち防止
-
-  &-item {
-    display: inline-table;
-    margin: 20px;
-    width: 320px;
-
-=======
   display: flex;
   flex-wrap: wrap;
   font-size: 0;
@@ -21,7 +9,6 @@
     margin-bottom: 100px;
     display: inline-table;
     width: 50%;
->>>>>>> e2d827983a959972c2fce7d10c7d0166a39f8abd
     text-align: left;
     padding: 0 20px;
   }
@@ -35,14 +22,8 @@
   }
 
   &-image,&-noImage {
-<<<<<<< HEAD
-    height: 180px;
-    width: 320px;
-    border-radius: 8px;
-=======
     padding-top : 58%;
     width: 100%;
->>>>>>> e2d827983a959972c2fce7d10c7d0166a39f8abd
   }
 
   &-image {
@@ -63,15 +44,11 @@
   &-noImage {
     position: relative;
     z-index: 99999;
-    background: rgba(0, 0, 0, .03);
+    background: rgba(255, 255, 255, .03);
     display: block;
   }
 
   a {
-<<<<<<< HEAD
-    display: inline-block;
-=======
->>>>>>> e2d827983a959972c2fce7d10c7d0166a39f8abd
     letter-spacing: 0.1rem;
     color: $color-text;
 

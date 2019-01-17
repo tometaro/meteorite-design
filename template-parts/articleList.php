@@ -7,6 +7,5 @@
   <div class="articleList-read">
     <span><?php echo the_time('Y.m.d'); ?></span>
     <span><?php the_category(' &bull; '); ?></span>
-    <span><?php the_meta(); ?></span>
   </span>
 </article>
