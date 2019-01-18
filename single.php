@@ -21,6 +21,7 @@ get_header();
 				<div class="keyVisual-gradation">
 					<div class="keyVisual-titleBlock-left">
 						<h1 class="keyVisual-title"><?php the_title(); ?></h1>
+						<p><?php echo get_post_meta($post->ID , '会社名' ,true); ?></p>
 						<p class="keyVisual-read"><?php echo the_time('Y.m.d'); ?></p>
 						<p><?php echo get_post_meta($post->ID , 'リンク' ,true); ?></p>
 					</div>
